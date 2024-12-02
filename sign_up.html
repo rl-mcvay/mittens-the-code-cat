@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sign Up</title>
+</head>
+<body>
+	<h1>Sign Up for Mittens' Mewsletter</h1>
+	<h2>Please fill out the form below to stay up-to-date on all things Mittens!</h2>
+	<!-- Use POST, not GET -->
+	<form method="POST">
+		First Name: <input type="text" name="firstname"><br><br>
+		Last Name: <input type="text" name="lastname"><br><br>
+		Email: <input type="email" name="email" placeholder="you@domain.com" required><br><br>
+		Birthday: <input type="date" name="dob"><br><br>
+		Gender: <br>
+			<input type="radio" name="gender" value="male">Male<br>
+			<input type="radio" name="gender" value="female">Female<br>
+			<input type="radio" name="gender" value="neutered">Neutered<br>
+			<input type="radio" name="gender" value="spayed">Spayed<br>
+			<input type="radio" name="gender" value="other">Other<br><br>
+		
+		<label>My favorite pet to live with:</label>
+		<select name="fav_pet">
+			<option value="A_cat">A cat</option>
+			<option value="2_cats">Two cats</option>
+			<option value="3_cats">Three cats</option>
+			<option value="4_cats">Four cats</option>
+			<option value="5_cats">Five cats</option>
+			<option value="6_cats">Six cats</option>
+			<option value="7_cats">Seven cats</option>
+			<option value="8_cats">Eight cats</option>
+			<option value="9_cats">Nine cats</option>
+		</select><br><br>
+		<input type="submit" name="submit" value="Sign Me Up!">
+		<input type="reset" name="reset">
+	</form>
+		<a href="index.html">
+		<h2>Go Back</h2>
+	</a>
+</body>
+<footer>
+	<hr>
+	<nav>
+    	<a href="/Users/rachaelmcvay/Desktop/HTMLFiles/index.html" target="blank">Home</a> | 
+    	<a href="/Users/rachaelmcvay/Desktop/HTMLFiles/about.html" target="blank">About</a> | 
+    	<a href="/Users/rachaelmcvay/Desktop/HTMLFiles/sign_up.html" target="blank">Sign Up</a> | 
+    	<a href="https://www.chewy.com/b/treats-391" target="blank">Buy Me Cat Treats</a>
+  	</nav>
+  	<small>&copy; 2024 Mittens the Code Cat. All rights reserved.</small>
+</footer>
+</html>
