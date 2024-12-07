@@ -11,14 +11,22 @@
 	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
+	<nav class="zone sticky">
+		<ul class="main-nav">
+			<li class="li-nav"><a href="index.html" class="a-nav">Home</a></li>
+			<li class="li-nav"><a href="about.html" target="_blank" class="a-nav">About</a></li>
+			<li class="li-nav"><a href="https://www.chewy.com/b/treats-391" target="_blank" class="a-nav">Buy Cat Treats</a></li>
+			<li class="li-nav push"><a href="sign_up.html" target="_blank" class="a-nav">Sign Up</a></li>
+		</ul>			
+	</nav>
 	<header class="text-center col-12">
 		<h1>Sign Up for Mittens' Mewsletter</h1>
 		<hr>
 	</header>
-	<h3 class="text-center col-12">Please fill out the form below to stay up-to-date on all things Mittens!<br>And, um, coding and stuff, too...</h3>
-	<div class="container d-flex">
+	<h3 class="text-center col-12">Please fill out the form below to stay up-to-date on all things Mittens!<br><small><em>And, um, coding and stuff, too...</em></small></h3>
+	<div class="container d-flex form">
 		<!-- Use POST, not GET -->
-		<form method="POST" class="form">
+		<form method="POST">
 			First Name: <input type="text" name="firstname" placeholder="First name"><br><br>
 			Last Name: <input type="text" name="lastname" placeholder="Last name"><br><br>
 			Email: <input type="email" name="email" placeholder="you@domain.com" required><br><br>
@@ -44,19 +52,12 @@
 			</select><br><br>
 		</form>
 	</div>
-	<section class="d-flex buttons">
+	<div class="d-flex buttons">
 		<input type="submit" name="submit" value="Sign Me Up!">
 		<input type="reset" name="reset" value="Reset Form">
-	</section>
+	</div>
 </body>
 <footer>
-	<hr>
-	<nav>
-    		<a href="index.html" target="_blank">Home</a> | 
-    		<a href="about.html" target="_blank">About</a> | 
-    		<a href="sign_up.html" target="_blank">Sign Up</a> | 
-    		<a href="https://www.chewy.com/b/treats-391" target="blank">Buy Cat Treats</a>
-  	</nav>
-  	<small>&copy; 2024 Mittens the Code Cat. All rights reserved.</small>
+	<small>&copy; 2024 Mittens the Code Cat. All rights reserved.</small>
 </footer>
 </html>
