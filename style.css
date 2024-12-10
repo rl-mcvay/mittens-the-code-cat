@@ -111,6 +111,8 @@ section {
 	border-radius: 5px;
 	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 	background-color: #f9f9f9;
+	max-width: 400px;
+	margin: 0 auto;
 	padding: 2rem;
 	line-height: 1.6;
 }
